@@ -30,9 +30,6 @@ def main():
 
     print(f"📦 Total de chunks gerados: {len(chunks)}")
 
-    # Limite temporário para evitar estourar a cota gratuita
-    chunks = chunks[:5]
-
     print(f"📦 Total de chunks enviados para embedding: {len(chunks)}")
 
     print("🧠 Criando embeddings...")
